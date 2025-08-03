@@ -66,20 +66,29 @@ A simple web application built with Flask for creating, editing, and deleting no
 ### Creating a Note
 
 1. On the homepage, click the **"Create"** button.
+![pic1](psunote/pictures/Screenshot_2025-08-01_184423.jpg)
+
 2. Fill out the Title, Description, and Tag fields.
 3. Click the **"Create"** button to save your new note.
+![pic2](psunote/pictures/Screenshot_2025-08-01_185451.jpg)
+
 
 ### Editing a Note
 1. On the homepage, find the note you want to edit and click the **"Edit"** button.
+![pic3](psunote/pictures/Screenshot_2025-08-01_192330.jpg)
+
 2. This will take you to the edit page where you can edit or the **title**, **description**, or **tags**.
 3. Click **"Save Changes"** to update the note.
+![pic4](psunote/pictures/Screenshot_2025-08-01_192400.jpg)
 
 ### Deleting a Note
 1. From the edit page, click the **"Delete Note"** button.
 2. A confirmation dialog will appear. Click **"OK"** to permanently delete the note, or **"Cancel"** to go back.
+![pic5](psunote/pictures/Screenshot_2025-08-01_192518.jpg)
 
 ### Deleting Tags
 1. Go to the Edit page for each note that has the tag you want to delete.
 2. In the Tag field, remove the tag name. 
 3. Click **"Save Changes"**.
 4. After you have removed the tag from the last note that used it, the application will automatically delete the tag from the database.
+
